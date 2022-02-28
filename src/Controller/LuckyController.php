@@ -3,7 +3,7 @@
 namespace App\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
-
+// инфо
 class LuckyController
 {
     public function number(): Response
@@ -18,4 +18,5 @@ class LuckyController
                 </html>"
         );
     }
+
 }
